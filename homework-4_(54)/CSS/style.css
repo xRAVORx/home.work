@@ -1,0 +1,209 @@
+body {
+    background-color: #000000e8;
+    color: white;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* ===================================================== */
+
+.header {
+    padding: 30px 0 36px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-item {
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+.header-buttom {
+    background-color: white;
+    color: #0e99da;
+    box-sizing: border-box;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+/* ========================================================= */
+/* я мог назвать section - hero ! */
+
+.section-1 {
+    background: url(../IMG/cat.jpg) 50% 25% / cover;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+}
+
+.section-1-h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-1-inner {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1-inner-text {
+    font-weight: 400;
+    max-width: 436px;
+}
+
+.section-1-inner-text-p1 {
+    margin-bottom: 13px;
+}
+span {
+    color: #0e99da;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-1-inner-buttom {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    width: 100%;
+    max-width: 320px;
+}
+
+.section-1-inner-buttom-one,
+.section-1-inner-buttom-two {
+    line-height: 20px;
+    padding: 18px 30px;
+    background-image: linear-gradient(#0e99da, #7272c3 );
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-1-inner-buttom-two {
+    background-image: linear-gradient( to right, #0e99da, #7272c3);
+}
+
+/* =========================================================== */
+
+.section-2 {
+    padding: 120px 0;
+}
+
+.section-2-text-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-2-text-p {
+    font-weight: 400;
+    max-width: 513px;
+    text-align: center;
+    margin: 15px auto 60px;
+}
+
+.section-2-inner-text1,
+.section-2-inner-text2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.section-2-inner-text1-group,
+.section-2-inner-text2-group {
+    padding: 28px;
+    max-width: 204px;
+    max-height: 141px;
+    background-color: #0e99da;
+    border: 2px solid #0c79ac;
+    border-radius: 16px;
+    box-shadow: 4px 4px 13px 0px #050d29c2;
+}
+
+.section-2-inner-text1-group-h3,
+.section-2-inner-text2-group-h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.section-2-inner-text1-group-p,
+.section-2-inner-text2-group-p {
+    text-align: center;
+}
+
+.section-2-inner-buttom {
+    display: block;
+    font-weight: 500;
+    width: 100%;
+    max-width: 436px;
+    margin: 30px auto 0;
+}
+
+.section-2-inner-buttom-one {
+    display: block;
+    line-height: 20px;
+    padding: 18px 30px;
+    background-image: linear-gradient(#0e99da, #0a658f);
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+/* ======================================================== */
+
+.footer {
+    border-top: 1px solid #ffffff25;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.footer-section-group-p {
+    max-width: 267px;
+    margin-top: 15px;
+}
+
+.footer-section-menu-h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-section-menu-ul-li {
+    margin-bottom: 10px;
+}
