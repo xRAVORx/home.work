@@ -1,0 +1,32 @@
+body {
+    background: #403e3e;
+}
+
+.text {
+    color: white;
+    font-size: 36px;
+}
+
+.white-line {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 18px;
+    max-width: auto;
+    min-height: 100px;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+
+.red-disk {
+    box-sizing: border-box;
+    background-color: #e20303;    
+    border-radius: 100%;
+    max-width: 100px;
+    min-height: 100px;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+
+}
